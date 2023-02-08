@@ -1,0 +1,92 @@
+.bg{
+    background: linear-gradient(rgb(73, 73, 109), pink);
+}
+
+.txt{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: url(../img/fondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.logueo {
+    width: 25%;
+    height: 75%;
+    background: #020d1ad2;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.sombra{
+    box-shadow: 5px 8px 18px gray;
+}
+
+.logueo .avatar {
+    width: 100px;
+    height: 110px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.logueo h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.logueo input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.logueo input[type="text"],
+.logueo input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.logueo input[type="button"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #110d52;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.logueo input[type="button"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+.logueo a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.logueo a:hover {
+    color: #fff;
+}
